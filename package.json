@@ -1,0 +1,15 @@
+{
+  "name": "tailwind-crash-course",
+  "version": "1.0.0",
+  "description": "this is a tailwind crash course",
+  "main": "index.js",
+  "author": "Abu Hasan",
+  "license": "mylicense",
+  "scripts": {
+    "stylebuild": "tailwindcss -i ./input.css -o ./dist/output.css",
+    "stylewatch": "tailwindcss -i ./input.css -o ./dist/output.css --watch"
+  },
+  "dependencies": {
+    "tailwindcss": "^3.3.2"
+  }
+}
